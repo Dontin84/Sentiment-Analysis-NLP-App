@@ -1,5 +1,4 @@
 
-!pip install streamlit
 !pip install vaderSentiment
 !pip install textblob
 import streamlit as st  
