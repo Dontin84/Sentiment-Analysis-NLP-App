@@ -32,19 +32,8 @@ def analyze_token_sentiment(docx):
 
 	result = {'positives':pos_list,'negatives':neg_list,'neutral':neu_list}
 	return result 
-
-
-
-
-		
-
-
-
-
-
-
 def main():
-	st.title("Sentiment Analysis NLP App")
+	st.title("Sentiment Analysis NLP App For Twitter to Tweets")
 	st.subheader("Streamlit Projects")
 
 	menu = ["Home","About"]
